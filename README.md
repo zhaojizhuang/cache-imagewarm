@@ -3,7 +3,7 @@
 [![GoDoc](https://godoc.org/knative.dev/sample-controller?status.svg)](https://godoc.org/knative.dev/sample-controller)
 [![Go Report Card](https://goreportcard.com/badge/knative/sample-controller)](https://goreportcard.com/report/knative/sample-controller)
 
-## Introduce
+## Introduce 
 
 ### What and Why
 Cache-Imagewarm is designed for reducing the time consumption of cold start. 
