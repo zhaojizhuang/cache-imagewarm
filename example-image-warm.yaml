@@ -1,0 +1,7 @@
+apiVersion: caching.knative.dev/v1alpha1
+kind: ImageWarm
+metadata:
+  name: example-image-warm
+spec:
+  image: gcr.io/knative-samples/helloworld-go
+  nodeName: k8s-master

@@ -1,0 +1,6 @@
+# Use :nonroot base image for all containers
+#defaultBaseImage: gcr.io/distroless/static:nonroot
+
+defaultBaseImage: gcr.io/distroless/static:nonroot
+baseImageOverrides:
+  knative.dev/cache-imagewarm/cmd/warmer: centos
