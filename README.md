@@ -68,4 +68,4 @@ type ImageWarmSpec struct {
 type ImageWarmStatus struct {
 	duckv1.Status `json:",inline"`
 }
-```
+``` 
